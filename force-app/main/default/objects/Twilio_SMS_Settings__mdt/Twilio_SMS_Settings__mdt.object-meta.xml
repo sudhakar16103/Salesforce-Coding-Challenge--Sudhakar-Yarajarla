@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Twilio SMS Settings used to map Sender and Recipient(CEO) phone number mapping</description>
+    <label>Twilio SMS Settings</label>
+    <pluralLabel>Twilio SMS Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

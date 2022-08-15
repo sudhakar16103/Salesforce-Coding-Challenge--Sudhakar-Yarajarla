@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>twilio_SMS</label>
+    <protected>false</protected>
+    <values>
+        <field>Method__c</field>
+        <value xsi:type="xsd:string">POST</value>
+    </values>
+    <values>
+        <field>Named_Credential__c</field>
+        <value xsi:type="xsd:string">twilioNamedCreds</value>
+    </values>
+    <values>
+        <field>RequestHeaderKeys__c</field>
+        <value xsi:type="xsd:string">Content-Type</value>
+    </values>
+    <values>
+        <field>Request_Header_Values__c</field>
+        <value xsi:type="xsd:string">application/x-www-form-urlencoded</value>
+    </values>
+    <values>
+        <field>Resource__c</field>
+        <value xsi:type="xsd:string">/Accounts/AC45316b8d1944999f71a3782b78584185/Messages.json</value>
+    </values>
+    <values>
+        <field>Timeout__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

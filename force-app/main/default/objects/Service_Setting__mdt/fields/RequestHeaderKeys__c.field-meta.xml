@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RequestHeaderKeys__c</fullName>
+    <description>Used to store API header keys</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>API header keys, and names should be comma separated.</inlineHelpText>
+    <label>Request Header Keys</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disable_Triggers__c</fullName>
+    <description>Disable specified triggers (assumes triggers are implemented using our TriggerHandler framework). Trigger names should be comma separated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Disable specified triggers (assumes triggers are implemented using our TriggerHandler framework). Trigger names should be comma separated.</inlineHelpText>
+    <label>Disable Triggers</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>URI__c</fullName>
+    <description>A URI aims to identify a resource and differentiate it from other resources</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A URI aims to identify a resource and differentiate it from other resources</inlineHelpText>
+    <label>URI</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

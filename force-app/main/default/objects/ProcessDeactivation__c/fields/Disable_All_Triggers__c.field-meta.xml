@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disable_All_Triggers__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Disable all custom triggers (this excludes triggers provided by managed packages)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Disable all custom triggers (this excludes triggers provided by managed packages)</inlineHelpText>
+    <label>Disable All Triggers</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

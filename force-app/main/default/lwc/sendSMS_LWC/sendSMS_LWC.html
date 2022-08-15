@@ -1,0 +1,27 @@
+<template>
+    <lightning-quick-action-panel header="Send SMS">
+        <div style="display:none">
+            <!--This is the way to of getting rendered callback to work -->
+            {recordId}
+        </div>
+        <!--Rendered This on phone numbers get, set  -->
+        <template if:true={completedLoading}>
+            <lightning-combobox name="sendto" class="sendto" label="To:" value={value} placeholder="Select Phone"
+                options={phonenumbers} required></lightning-combobox>
+            <!--Dropdown element for phone numbers  -->
+            <lightning-textarea class="body" label="SMS Body" placeholder="Type a message" required="">
+                <!--Input text area for SMS Body  -->
+            </lightning-textarea>
+
+            <div slot="footer">
+                <!--Cancel button to close the popup  -->
+                <lightning-button variant="neutral" label="Cancel" onclick={closeAction}>
+                </lightning-button>
+                <!--Send button to validate inputs , send SMS and close the popup -->
+                <lightning-button variant="brand" label="Send" onclick={sendAction} class="slds-m-left_x-small">
+                </lightning-button>
+            </div>
+        </template>
+    </lightning-quick-action-panel>
+
+</template>

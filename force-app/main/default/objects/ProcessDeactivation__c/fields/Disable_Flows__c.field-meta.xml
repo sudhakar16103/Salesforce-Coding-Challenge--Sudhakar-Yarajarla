@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disable_Flows__c</fullName>
+    <description>Disable specified Flows. Flow&apos;s names should be comma separated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Disable specified Flows. Flow&apos;s names should be comma separated.</inlineHelpText>
+    <label>Disable Flows</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>
